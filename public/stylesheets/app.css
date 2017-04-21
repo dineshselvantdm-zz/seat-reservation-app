@@ -1,0 +1,37 @@
+.reserve{
+	text-align: center;
+}
+
+.reserve__comp__container{  
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+}
+
+.reserve__comp__container__head{
+	color: darkred;
+	text-decoration: underline;
+}
+
+.reserve__comp__container__head,.reserve__comp__container__msg{
+	text-align: left;
+	padding:10px;
+}
+
+.reserve__comp__container__seat--available,.reserve__comp__container__seat--unavailable,.reserve__comp__container__seat--selected{
+    display: inline-block;
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    background-color: green;
+    margin:5px;
+}
+
+.reserve__comp__container__seat--unavailable{
+    background-color: red;
+}
+
+.reserve__comp__container__seat--selected{
+    background-color: orange;
+}

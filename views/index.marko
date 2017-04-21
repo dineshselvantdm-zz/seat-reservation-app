@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="robots" content="INDEX,FOLLOW" /> 
+		<title>Seats Reservation App</title>
+		<link href="/stylesheets/app.css" media="screen" rel="stylesheet">	
+	</head>
+	<body class="reserve">
+		<h3>Seats Reservation App</h3>
+		<div id="reserve__comp">
+			$!{data.serverside_rendered_html}
+		</div>
+		<script async defer src="/javascripts/bundle.js"></script>
+		<script type="text/javascript">
+			var seats_data = ${JSON.stringify(data.seats_data)};
+		</script>
+	</body>
+</html>
