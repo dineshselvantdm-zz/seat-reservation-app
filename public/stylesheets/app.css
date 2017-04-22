@@ -17,6 +17,7 @@
 .reserve__comp__container__head,.reserve__comp__container__msg{
 	text-align: left;
 	padding:10px;
+	word-wrap: break-word;
 }
 
 .reserve__comp__container__seat--available,.reserve__comp__container__seat--unavailable,.reserve__comp__container__seat--selected{
