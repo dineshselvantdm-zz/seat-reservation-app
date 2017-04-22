@@ -1,15 +1,17 @@
 {
-	"name": "seat-reservation",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-	"start": "node app.js"
-	},
-	"dependencies": {
-		"express": "2.5.8",
-		"marko": "^3.11.4",
-		"mithril": "~0.2.4",
-		"mithril-node-render": "~0.4.2",
-		"webpack": "^2.4.1"
- 	}
-}	
+  "name": "seat-reservation",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "2.5.8",
+    "marko": "^3.11.4",
+    "mithril": "~0.2.4",
+    "mithril-node-render": "~0.4.2",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.4.1"
+  },
+  "devDependencies": {}
+}

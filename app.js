@@ -10,6 +10,7 @@ var app = module.exports = express.createServer();
 
 // Configuration
 
+app.use(express.compress());
 app.configure(function(){
   app.set('views', __dirname + '/views');
   app.use(app.router);
